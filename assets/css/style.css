@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+    --CINZA-ESCURO:rgba(37, 50, 55, 1);
+    --CINZA-MEIDO:rgba(148, 148, 148, 1);
+    --CINZA-CLARO:rgba(196, 196, 196, 1);
+    --BRANCO:rgba(241, 241, 241, 1); 
+}
+header{
+    background-color: var( --CINZA-CLARO);
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.header-logo{
+    height: 66.34px;
+    width: 160px;
+    display: inline-block;
+}
+
+.list-nav ul li{
+    display: inline;
+    padding: 30px;
+}
+
+header .list-nav{
+    display: inline-block;
+
+}
